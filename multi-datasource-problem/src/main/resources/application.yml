@@ -1,0 +1,20 @@
+io:
+  github:
+    joemsu:
+      customer:
+        datasource:
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:3306/customer?characterEncoding=UTF-8&amp;useSSL=false
+          username: root
+          password: 123456
+      order:
+        datasource:
+          url: jdbc:mysql://127.0.0.1:3306/orders?characterEncoding=UTF-8&amp;useSSL=false
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: 123456
+      jpa:
+        properties:
+          hibernate.hbm2ddl.auto: update
+logging:
+  level: debug
