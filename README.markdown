@@ -1,4 +1,4 @@
-## 一、项目相关博客地址：
+## 一、项目相关博客地址：http://www.cnblogs.com/joemsu/p/8028210.html
 
 ## 二、启动说明：
     先在sql目录下获取init.sql文件，然后再mysql数据库执行，修改对应的application.yml，然后运行各个module的Application文件，访问地址
