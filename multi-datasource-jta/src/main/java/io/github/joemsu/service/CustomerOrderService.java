@@ -6,4 +6,5 @@ package io.github.joemsu.service;
 public interface CustomerOrderService {
 
     void create();
+
 }

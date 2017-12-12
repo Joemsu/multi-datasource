@@ -3,7 +3,6 @@ package io.github.joemsu.config;
 import com.atomikos.icatch.jta.UserTransactionManager;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -15,7 +14,6 @@ import javax.sql.DataSource;
  * @author joemsu 2017-12-11 下午5:16
  */
 @Configuration
-@EnableConfigurationProperties
 public class DataSourceConfig {
 
     @Bean

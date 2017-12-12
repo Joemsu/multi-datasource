@@ -1,3 +1,5 @@
+package io.github.joemsu;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,9 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan("io.github.joemsu")
-public class MultiDatasourceProblemApplication {
+public class MultiDatasourceProblemsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MultiDatasourceProblemApplication.class, args);
+        SpringApplication.run(MultiDatasourceProblemsApplication.class, args);
     }
 }

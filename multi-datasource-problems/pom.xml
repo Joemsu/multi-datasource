@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>multi-datasource-problem</artifactId>
+    <artifactId>multi-datasource-problems</artifactId>
 
     <dependencies>
         <dependency>
@@ -38,4 +38,6 @@
             <artifactId>multi-datasource-dao</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>

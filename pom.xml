@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
-        <module>multi-datasource-problem</module>
         <module>multi-datasource-jta</module>
         <module>multi-datasource-dao</module>
+        <module>multi-datasource-problems</module>
     </modules>
 
 
